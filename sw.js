@@ -1,6 +1,6 @@
 /* Recipe book service worker
    Bump VERSION whenever you upload a new index.html so phones pick up the change. */
-const VERSION = 'recipebook-v1';
+const VERSION = 'recipebook-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 const FONT_HOSTS = ['cdn.jsdelivr.net', 'fonts.googleapis.com', 'fonts.gstatic.com'];
